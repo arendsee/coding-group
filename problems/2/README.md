@@ -11,7 +11,7 @@ I have a made an R toy package, `toyr`. It contains a single function,
 ```R
 R> install_github("arendsee/toyr")
 R> library(toyr)
-R> gff_read("unicorn.gff")
+R> read_gff("unicorn.gff")
 ```
 
 This function will read local files as well as URLs. It will also automatically
